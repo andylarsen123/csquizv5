@@ -160,9 +160,9 @@ const quizData = [
     showQuestions(0);
   });
 
-  noButton.addEventListener('click', function () {
-    window.location.href = "https://www.planningmi.org/aws/MAP/pt/show_detail/588804?layout_name=layout_details&model_name=news_article";
-  });
+noButton.addEventListener('click', function () {
+  window.open("https://www.planningmi.org/aws/MAP/pt/show_detail/588804?layout_name=layout_details&model_name=news_article", "_blank");
+});
 
   // Function to add CSS styles that prevent horizontal scrolling
   function addScrollStyles() {
