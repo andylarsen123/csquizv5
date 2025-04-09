@@ -185,6 +185,7 @@ const quizData = [
       .results-container {
         overflow-y: auto;
         overflow-x: hidden;
+        padding: 0px
       }
       
       /* Category styling for results */
