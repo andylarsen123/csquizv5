@@ -370,7 +370,7 @@ function showResults() {
         
         // Create a results header
         const resultsHeader = document.createElement('h2');
-        resultsHeader.textContent = "<small>Note: At the moment, only the links to Shoreline Setback, Shoreline District, Bluff Protection Overlay, Land Division, and PUDs are functional.)"</small> ;
+        resultsHeader.textContent = "Note: At the moment, only the links to Shoreline Setback, Shoreline District, Bluff Protection Overlay, Land Division, and PUDs are functional.)";
         resultsHeader.style.textAlign = 'center';
         resultsHeader.style.marginBottom = '13px';
         answersList.appendChild(resultsHeader);
