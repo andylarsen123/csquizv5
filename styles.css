@@ -108,8 +108,8 @@ button:hover {
   background: white;
   border-radius: 1px;
   box-sizing: border-box; /* Ensures padding is included in the height/width */
-  padding-top: 10px;
-  padding-left: 20px; /* Restored left padding */
+  padding-top: 00px;
+  padding-left: 0px; 
   padding-bottom: 10px;
   text-align: left; /* Ensures the answers are aligned to the left */
   word-wrap: break-word;
