@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coastal Solutions Tool</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <video id="video-bg" autoplay loop muted playsinline>
+        <source src="https://github.com/andylarsen123/cscquizv4/raw/refs/heads/main/mp4%20crop.mp4">
+    </video>
+    <div id="dark-overlay"></div>
+    <div id="quiz-container">
+        <!-- Stage 1: Initial options -->
+        <p id="question-text"><strong>Coastal Solutions Compendium:</strong><br>Choose an option</p>
+        <div id="quiz-controls">
+            <button id="yes-btn">Interactive Tool</button>
+            <button id="no-btn">View Full List of Tools</button>
+        </div>
+        
+        <!-- Stage 2: Questions (hidden initially) -->
+        <div id="question-screen" class="hidden">
+            <!-- Questions will be inserted dynamically -->
+            <p>Select the applicable options:</p>
+            <div class="checkbox-options">
+                <input type="checkbox" id="option1">
+                <label for="option1">Protect</label>
+
+                <input type="checkbox" id="option2">
+                <label for="option2">Accommodate</label>
+
+                <input type="checkbox" id="option3">
+                <label for="option3">Retreat</label>
+            </div>
+        </div>
+        
+        <!-- Stage 3: Results section (hidden until quiz is complete) -->
+        <div id="results" class="hidden">
+            <strong>Possible Coastal Resilience Tool(s):</strong><br>Click on a tool (and scroll) to learn more <br><small>(Note: At the moment, only the links to Shoreline Setback, Shoreline District, Bluff Protection Overlay, Land Division, and PUDs are functional.)</small>
+            <div id="answers-container">
+                <ul id="answers-list"></ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Control Buttons completely separate from quiz container -->
+    <div id="control-buttons" class="buttons-container hidden">
+        <button id="restart-btn">Restart Quiz</button>
+    </div>
+
+    <div id="question-screen-1" class="question-screen hidden"></div>
+    <div id="question-screen-2" class="question-screen hidden"></div>
+    <div id="question-screen-3" class="question-screen hidden"></div>  
+    
+    <img id="company-logo" src="https://www.planningmi.org/aws/MAP/asset_manager/get_image/918734?ver=6" alt="Company Logo" />
+    <script src="script.js"></script>
+</body>
+</html>
