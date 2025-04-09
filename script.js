@@ -368,13 +368,6 @@ function showResults() {
             "General"
         ];
         
-        // Create a results header
-        const resultsHeader = document.createElement('h2');
-        resultsHeader.textContent = "<small>Note: At the moment, only the links to Shoreline Setback, Shoreline District, Bluff Protection Overlay, Land Division, and PUDs are functional.)</small>";
-        resultsHeader.style.textAlign = 'center';
-        resultsHeader.style.marginBottom = '13px';
-        answersList.appendChild(resultsHeader);
-        
         // Create an object to group answers by category
         const categorizedAnswers = {};
         categories.forEach(category => {
