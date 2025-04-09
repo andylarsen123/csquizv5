@@ -66,7 +66,7 @@ const quizData = [
         { text: "Keyhole / Funneling Standards", link: "https://example.com/", category: "Land Development Standards" }
     ]},
     { question: "Does <strong>development already exist</strong> within 100 feet of the shoreline?", answersIfYes: [
-        { text: "Nonconformities and Variance Standards", link: "https://example.com/natural-features-overlay", category: "Land Development Standards },
+        { text: "Nonconformities and Variance Standards", link: "https://example.com/natural-features-overlay", category: "Land Development Standards" },
         { text: "Armoring Prohibition / Temporary Shoreline Protections", link: "https://example.com/", category: "Site Development Standards" },
         { text: "Retreat / Building Moving", link: "https://example.com", category: "Site Development Standards" }
     ]},
