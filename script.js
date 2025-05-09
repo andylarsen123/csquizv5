@@ -9,28 +9,28 @@ const quizData = [
     { question: "Is the shoreline <strong>sandy?</strong>", answersIfYes: [
         { text: "Shoreline Setback", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589617?layout_name=layout_details&model_name=news_article", category: "Zoning Tools" },
         { text: "Natural Features / Sensitive Area Overlay", link: "https://example.com/", category: "Zoning Tools" },
-        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Site Development Standards" },
+        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Site Development Standards" }
     ]},
     { question: "Are there <strong>dunes</strong> along the shoreline?", answersIfYes: [
         { text: "Natural Features / Sensitive Area Overlay", link: "https://example.com/", category: "Zoning Tools" },
         { text: "Dune Protection Overlay", link: "https://example.com/", category: "Zoning Tools" },
-        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Site Development Standards" },
+        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Site Development Standards" }
     ]},
     { question: "Are there <strong>coarse sediment beaches </strong> along the shoreline?", answersIfYes: [
         { text: "Shoreline Setback", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589617?layout_name=layout_details&model_name=news_article", category: "Zoning Tools" },
-        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Site Development Standards" },
+        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Site Development Standards" }
     ]},
     { question: "Is there <strong>bedrock</strong> along the shoreline?", answersIfYes: [
         { text: "Shoreline Setback", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589617?layout_name=layout_details&model_name=news_article", category: "Zoning Tools" }
     ]},
     { question: "Are there <strong>wetlands</strong> along the shoreline?", answersIfYes: [
         { text: "Natural Features / Sensitive Area Overlay", link: "https://example.com/", category: "Zoning Tools" },
-        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Site Development Standards" },
+        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Site Development Standards" }
     ]},
     { question: "Is the shoreline <strong>armored</strong> (seawalls, riprap, etc.)?", answersIfYes: [
         { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Site Development Standards" },
-        { text: "Shoreline Setback", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589617?layout_name=layout_details&model_name=news_article", category: "Zoning Tools" }
-        { text: "Non-Conformity and Variance Standards", link: "https://example.com/natural-features-overlay", category: "Land Development Standards" },
+        { text: "Shoreline Setback", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589617?layout_name=layout_details&model_name=news_article", category: "Zoning Tools" },
+        { text: "Non-Conformity and Variance Standards", link: "https://example.com/natural-features-overlay", category: "Land Development Standards" }
     ]},
     { question: "Are there <strong>state-designated</strong> critical dunes, sensitive environmental areas, or high-risk erosion areas along the shoreline?", answersIfYes: [
         { text: "Permit Review of State-designated Lands", link: "https://example.com/", category: "Zoning Tool" }
@@ -38,20 +38,20 @@ const quizData = [
     { question: "Are there <strong>designated floodplains</strong> along the shoreline?", answersIfYes: [
         { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Site Development Standards" },
         { text: "Coastal Floodplain Overlay", link: "https://example.com/", category: "Zoning Tools" },
-        { text: "Natural Features / Sensitive Area Overlay", link: "https://example.com/", category: "Zoning Tools" },
+        { text: "Natural Features / Sensitive Area Overlay", link: "https://example.com/", category: "Zoning Tools" }
     ]},
     { question: "Is the <strong>character of the shoreline similar</strong> across your community?", answersIfYes: [
         { text: "Shoreline District", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589619?layout_name=layout_details&model_name=news_article", category: "Zoning Tools" }
     ]},
     { question: "Do you have <strong>more than one zoning district</strong> along your shoreline?", answersIfYes: [
         { text: "Shoreline Setback", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589617?layout_name=layout_details&model_name=news_article", category: "Zoning Tools" },
-        { text: "Shoreline Overlay", link: "https://example.com/", category: "Zoning Tools" },
+        { text: "Shoreline Overlay", link: "https://example.com/", category: "Zoning Tools" }
     ]},
     { question: "Do you have capacity to implement and review <strong>discretionary standards</strong> in order to make zoning more flexible?", answersIfYes: [
         { text: "Planned Unit Development (PUD)", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589621?layout_name=layout_details&model_name=news_article", category: "Zoning Tools" }
     ]},
     { question: "Do you have any land along your shoreline which may be <strong>platted or divided?</strong>", answersIfYes: [
-        { text: "Land Divisions", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589623?layout_name=layout_details&model_name=news_article", category: "Regulatory Alternatives" },
+        { text: "Land Divisions", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589623?layout_name=layout_details&model_name=news_article", category: "Regulatory Alternatives" }
     ]},
     { question: "Does <strong>development already exist</strong> along the shoreline?", answersIfYes: [
         { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Site Development Standards" },
@@ -85,7 +85,7 @@ const quizData = [
     ]},
     { question: "Is it a priority for your community to <strong>preserve or create access</strong> to the shoreline?", answersIfYes: [
         { text: "Shoreline Setback", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589617?layout_name=layout_details&model_name=news_article", category: "Zoning Tools" },
-        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Site Development Standards" },
+        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Site Development Standards" }
     ]}
 ]
 
