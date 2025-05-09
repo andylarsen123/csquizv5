@@ -3,49 +3,49 @@ document.addEventListener("DOMContentLoaded", function () {
 const quizData = [
     { question: "<strong>Coastal Solutions Compendium:</strong><br>Choose an option", answersIfYes: [{ text: "Interactive Tool", link: "https://example.com/interactive-tool", category: "General" }], linkIfNo: "https://www.planningmi.org/aws/MAP/pt/show_detail/588804?layout_name=layout_details&model_name=news_article" },
       { question: "The shoreline is <strong>elevated</strong>, such as by bluffs", answersIfYes: [
-        { text: "Natural Features / Sensitive Area Overlay", link: "https://example.com/", category: "Overlay Zones" },
+        { text: "Natural Features / Sensitive Area Overlay", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592503?layout_name=layout_details&model_name=news_article", category: "Overlay Zones" },
         { text: "Bluff Protection Overlay", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589620?layout_name=layout_details&model_name=news_article", category: "Overlay Zones" }
     ]},
     { question: "The shoreline is <strong>sandy</strong>", answersIfYes: [
         { text: "Shoreline Setback", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589617?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" },
-        { text: "Natural Features / Sensitive Area Overlay", link: "https://example.com/", category: "Overlay Zones" },
-        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Primary Zoning Tool" }
+        { text: "Natural Features / Sensitive Area Overlay", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592503?layout_name=layout_details&model_name=news_article", category: "Overlay Zones" },
+        { text: "Shoreline Armoring Prohibition", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592488?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tool" }
     ]},
     { question: "There are <strong>dunes</strong> along the shoreline", answersIfYes: [
-        { text: "Natural Features / Sensitive Area Overlay", link: "https://example.com/", category: "Overlay Zones" },
-        { text: "Dune Protection Overlay", link: "https://example.com/", category: "Overlay Zones" },
-        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Primary Zoning Tools" }
+        { text: "Natural Features / Sensitive Area Overlay", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592503?layout_name=layout_details&model_name=news_article", category: "Overlay Zones" },
+        { text: "Dune Protection Overlay", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592496?layout_name=layout_details&model_name=news_article", category: "Overlay Zones" },
+        { text: "Shoreline Armoring Prohibition", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592488?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" }
     ]},
     { question: "There are <strong>coarse sediment beaches </strong> along the shoreline", answersIfYes: [
         { text: "Shoreline Setback", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589617?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" },
-        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Primary Zoning Tools" }
+        { text: "Shoreline Armoring Prohibition", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592488?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" }
     ]},
     { question: "There is <strong>bedrock</strong> along the shoreline", answersIfYes: [
         { text: "Shoreline Setback", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589617?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" }
     ]},
     { question: "There are <strong>wetlands</strong> along the shoreline", answersIfYes: [
-        { text: "Natural Features / Sensitive Area Overlay", link: "https://example.com/", category: "Overlay Zones" },
-        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Primary Zoning Tools" }
+        { text: "Natural Features / Sensitive Area Overlay", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592503?layout_name=layout_details&model_name=news_article", category: "Overlay Zones" },
+        { text: "Shoreline Armoring Prohibition", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592488?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" }
     ]},
     { question: "The shoreline is <strong>armored</strong> (has seawalls, riprap, etc.)", answersIfYes: [
-        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Primary Zoning Tools" },
+        { text: "Shoreline Armoring Prohibition", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592488?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" },
         { text: "Shoreline Setback", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589617?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" },
-        { text: "Non-Conformity and Variance Standards", link: "https://example.com/natural-features-overlay", category: "Other Tools" }
+        { text: "Non-Conformity and Variance Standards", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592504?layout_name=layout_details&model_name=news_article", category: "Other Tools" }
     ]},
     { question: "There are <strong>state-designated</strong> critical dunes, sensitive environmental areas, or high-risk erosion areas along the shoreline", answersIfYes: [
-        { text: "Permit Review of State-designated Lands", link: "https://example.com/", category: "Other Tools" }
+        { text: "Permit Review of State-designated Lands", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592510?layout_name=layout_details&model_name=news_article", category: "Other Tools" }
     ]},
     { question: "There are <strong>designated floodplains</strong> along the shoreline", answersIfYes: [
-        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Primary Zoning Tools" },
-        { text: "Coastal Floodplain Overlay", link: "https://example.com/", category: "Overlay Zones" },
-        { text: "Natural Features / Sensitive Area Overlay", link: "https://example.com/", category: "Overlay Zones" }
+        { text: "Shoreline Armoring Prohibition", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592488?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" },
+        { text: "Coastal Floodplain Overlay", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592493?layout_name=layout_details&model_name=news_article", category: "Overlay Zones" },
+        { text: "Natural Features / Sensitive Area Overlay", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592503?layout_name=layout_details&model_name=news_article", category: "Overlay Zones" },
     ]},
     { question: "The <strong>character of the shoreline is similar</strong> across your community", answersIfYes: [
         { text: "Shoreline District", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589619?layout_name=layout_details&model_name=news_article", category: "Zoning Districts" }
     ]},
     { question: "There is <strong>more than one zoning district</strong> along your shoreline", answersIfYes: [
         { text: "Shoreline Setback", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589617?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" },
-        { text: "Shoreline Overlay", link: "https://example.com/", category: "Overlay Zones" }
+        { text: "Shoreline Overlay", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592490?layout_name=layout_details&model_name=news_article", category: "Overlay Zones" }
     ]},
     { question: "There is existing capacity to implement and review <strong>discretionary standards</strong> to make zoning more flexible", answersIfYes: [
         { text: "Planned Unit Development (PUD)", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589621?layout_name=layout_details&model_name=news_article", category: "Zoning Districts" }
@@ -54,38 +54,38 @@ const quizData = [
         { text: "Land Divisions", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589623?layout_name=layout_details&model_name=news_article", category: "Other Tools" }
     ]},
     { question: "<strong>Development already exists</strong> along the shoreline", answersIfYes: [
-        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Primary Zoning Tools" },
-        { text: "Non-Conformity and Variance Standards", link: "https://example.com/natural-features-overlay", category: "Other Tools" },
-        { text: "Moveable Structure Requirements", link: "https://example.com", category: "Other Tools" }
+        { text: "Shoreline Armoring Prohibition", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592488?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" },
+        { text: "Non-Conformity and Variance Standards", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592504?layout_name=layout_details&model_name=news_article", category: "Other Tools" }
+        { text: "Moveable Structure Requirements", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592507?layout_name=layout_details&model_name=news_article", category: "Other Tools" }
     ]},
     { question: "You anticipate <strong>new development or redevelopment</strong> along your shoreline", answersIfYes: [
         { text: "Shoreline Setback", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589617?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" },
-        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Primary Zoning Tools" },       
+        { text: "Shoreline Armoring Prohibition", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592488?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" },       
         { text: "Shoreline District", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589619?layout_name=layout_details&model_name=news_article", category: "Zoning Districts" }
          ]},
     { question: "The shoreline property experiences <strong>erosion</strong>", answersIfYes: [
         { text: "Shoreline Setback", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589617?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" },
-        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Primary Zoning Tools" },
-        { text: "Moveable Structure Requirements", link: "https://example.com", category: "Other Tools" }
+        { text: "Shoreline Armoring Prohibition", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592488?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" },
+        { text: "Moveable Structure Requirements", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592507?layout_name=layout_details&model_name=news_article", category: "Other Tools" }
     ]},
     { question: "The shoreline property experiences <strong>flooding</strong>", answersIfYes: [
         { text: "Shoreline Setback", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589617?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" },
-        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Primary Zoning Tools" },
-        { text: "Moveable Structure Requirements", link: "https://example.com", category: "Other Tools" }  
+        { text: "Shoreline Armoring Prohibition", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592488?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" },
+        { text: "Moveable Structure Requirements", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592507?layout_name=layout_details&model_name=news_article", category: "Other Tools" }
     ]},
     { question: "There are existing or desired <strong>shoreline-specific uses</strong>, such as marinas", answersIfYes: [
         { text: "Shoreline District", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589619?layout_name=layout_details&model_name=news_article", category: "Zoning Districts" },
-        { text: "Marinas and Special Waterfront Uses", link: "https://example.com/", category: "Other Tools" }
+        { text: "Marinas and Special Waterfront Uses", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592509?layout_name=layout_details&model_name=news_article", category: "Other Tools" }
     ]},
     { question: "The community is concerned about <strong>invasive plant or animal species</strong>", answersIfYes: [
-        { text: "Shoreline Greenbelt", link: "https://example.com/", category: "Primary Zoning Tools" }   
+        { text: "Shoreline Greenbelt", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592487?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" }   
     ]},
     { question: "The community is concerned about <strong>water quality</strong>", answersIfYes: [
-        { text: "Shoreline Greenbelt", link: "https://example.com/", category: "Primary Zoning Tools" }   
+        { text: "Shoreline Greenbelt", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592487?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" }   
     ]},
     { question: "It is a priority for your community to <strong>preserve or create access</strong> to the shoreline", answersIfYes: [
         { text: "Shoreline Setback", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589617?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" },
-        { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Primary Zoning Tools" }
+        { text: "Shoreline Armoring Prohibition", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592488?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" }
     ]}
 ]
 
