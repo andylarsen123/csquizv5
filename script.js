@@ -341,9 +341,10 @@ function showResults() {
     if (allSelectedAnswers.size) {
         // Define our categories
         const categories = [
-            "Zoning Tools", 
-            "Site Development Standards", 
-            "Land Development Standards"
+            "Primary Zoning Tools", 
+            "Zoning Districts", 
+            "Overlay Zones",
+            "Other Tools"
         ];
         
         // Create an object to group answers by category
