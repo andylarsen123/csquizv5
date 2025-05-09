@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Initialize quiz data
 const quizData = [
     { question: "<strong>Coastal Solutions Compendium:</strong><br>Choose an option", answersIfYes: [{ text: "Interactive Tool", link: "https://example.com/interactive-tool", category: "General" }], linkIfNo: "https://www.planningmi.org/aws/MAP/pt/show_detail/588804?layout_name=layout_details&model_name=news_article" },
-      { question: "The shoreline is<strong>elevated</strong>, such as by bluffs", answersIfYes: [
+      { question: "The shoreline is <strong>elevated</strong>, such as by bluffs", answersIfYes: [
         { text: "Natural Features / Sensitive Area Overlay", link: "https://example.com/", category: "Zoning Tools" },
         { text: "Bluff Protection Overlay", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589620?layout_name=layout_details&model_name=news_article", category: "Zoning Tools" }
     ]},
@@ -63,7 +63,7 @@ const quizData = [
         { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Site Development Standards" },       
         { text: "Shoreline District", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589619?layout_name=layout_details&model_name=news_article", category: "Zoning Tools" }
          ]},
-    { question: "The shoreline property is experiencing <strong>erosion</strong>", answersIfYes: [
+    { question: "The shoreline property experiences <strong>erosion</strong>", answersIfYes: [
         { text: "Shoreline Setback", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/589617?layout_name=layout_details&model_name=news_article", category: "Zoning Tools" },
         { text: "Shoreline Armoring Prohibition", link: "https://example.com/", category: "Site Development Standards" },
         { text: "Moveable Structure Requirements", link: "https://example.com", category: "Site Development Standards" }
