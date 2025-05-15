@@ -55,7 +55,7 @@ const quizData = [
     ]},
     { question: "<strong>Development already exists</strong> along the shoreline", answersIfYes: [
         { text: "Shoreline Armoring Prohibition", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592488?layout_name=layout_details&model_name=news_article", category: "Primary Zoning Tools" },
-        { text: "Non-Conformity and Variance Standards", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592504?layout_name=layout_details&model_name=news_article", category: "Other Tools" }
+        { text: "Non-Conformity and Variance Standards", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592504?layout_name=layout_details&model_name=news_article", category: "Other Tools" },
         { text: "Moveable Structure Requirements", link: "https://www.planningmi.org/aws/MAP/pt/show_detail/592507?layout_name=layout_details&model_name=news_article", category: "Other Tools" }
     ]},
     { question: "You anticipate <strong>new development or redevelopment</strong> along your shoreline", answersIfYes: [
